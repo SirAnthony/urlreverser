@@ -1,0 +1,20 @@
+{
+  "name": "urlreverser",
+  "description": "Url reverser",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "homepage": "https://github.com/SirAnthony/urlreverser",
+  "author": {
+    "name": "Sir Anthony",
+    "url": "https://github.com/SirAnthony"
+  },
+  "main": "urlreverser",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/SirAnthony/urlreverser.git"
+  },
+  "dependencies": {
+    "rssi": "0.0.x"
+  }
+}
