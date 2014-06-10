@@ -1,6 +1,7 @@
 {
   "name": "urlreverser",
   "description": "Url reverser",
+  "keywords": ["reverse", "urlpatterns", "route", "nunjucks"],
   "version": "0.0.1",
   "private": false,
   "license": "MIT",
@@ -14,7 +15,15 @@
     "type" : "git",
     "url" : "https://github.com/SirAnthony/urlreverser.git"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
     "rssi": "0.0.x"
+  },
+  "devDependencies": {
+    "jshint": "~2.5",
+    "mocha": "~1.19",
+    "nunjucks": "~1.0"
   }
 }
