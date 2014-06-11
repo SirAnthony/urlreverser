@@ -16,6 +16,11 @@ describe('urlreverser', function () {
         eq(reverser.reverse('/foo/:bar', {bar: 'bar'}), '/foo/bar')
     })
 
+    it('should work with php links', function() {
+        reverser.url('/link/?q=:q(?:&v=:v)?', 'link')
+        eq(reverser.reverse('link', {q: 's', v: '1'}), '/link/?q=s&v=1')
+    })
+
     it('should reverse simple url', function () {
         reverser.url('/foo', 'foo')
         eq(reverser.reverse('foo'), '/foo')
